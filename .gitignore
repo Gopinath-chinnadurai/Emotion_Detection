@@ -1,0 +1,15 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore dataset weights and checkpoints if too large
+*.pth
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
