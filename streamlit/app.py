@@ -58,8 +58,10 @@ uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Uploaded Image", width=400)  
 
+    st.markdown("<h4 style='text-align: center;'>Uploaded Image</h4>", unsafe_allow_html=True)
+
+    st.image(image, width=300)
 
     if st.button("Predict Emotion"):
         with st.spinner("Analyzing..."):

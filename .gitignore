@@ -8,7 +8,10 @@ venv/
 __pycache__/
 *.pyc
 
-# Ignore dataset weights and checkpoints if too large
+# Ignore dataset
+dataset/
+
+# Ignore model weights
 *.pth
 
 # Jupyter checkpoint files
