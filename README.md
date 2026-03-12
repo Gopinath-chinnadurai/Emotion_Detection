@@ -10,6 +10,10 @@ The dataset used for training was sourced from **Kaggle**, and several preproces
 
 The complete implementation is provided in a **Jupyter Notebook (.ipynb)** and demonstrates the full pipeline from **data preprocessing, model training, fine-tuning, and evaluation**.
 
+
+<img width="1897" height="1047" alt="emotion_detection" src="https://github.com/user-attachments/assets/8380fa2c-8b42-4d23-b2a5-e8a519af22a8" />
+
+
 ---
 
 ## Emotion Classes
